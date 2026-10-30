@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>Beyond Legacy · Markus Birner</title>
+	<link>https://markusbirner.com/</link>
+	<atom:link href="https://markusbirner.com/rss.xml" rel="self" type="application/rss+xml" />
+	<description>Beyond Legacy – innovation, architecture and technology from inside the enterprise.</description>
+	<language>en</language>
+<item>
+	<title>Lost in the blueprint</title>
+	<link>https://markusbirner.com/posts/lost-in-the-blueprint/</link>
+	<guid isPermaLink="true">https://markusbirner.com/posts/lost-in-the-blueprint/</guid>
+	<pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+	<category>Solutions</category>
+	<description>Thousands of pages, dozens of experts, and still no picture of how the business really works.</description>
+</item>
+<item>
+	<title>My own brownfield migration into the AI age</title>
+	<link>https://markusbirner.com/posts/my-brownfield-migration/</link>
+	<guid isPermaLink="true">https://markusbirner.com/posts/my-brownfield-migration/</guid>
+	<pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+	<category>Innovation</category>
+	<description>For ten years, I've helped companies move from ECC to S/4HANA. Now it's my turn.</description>
+</item>
+<item>
+	<title>What the dinosaurs know</title>
+	<link>https://markusbirner.com/posts/what-the-dinosaurs-know/</link>
+	<guid isPermaLink="true">https://markusbirner.com/posts/what-the-dinosaurs-know/</guid>
+	<pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+	<category>Technology</category>
+	<description>Seventeen years in enterprise software, one comet on the horizon, and a question I can no longer ignore.</description>
+</item>
+</channel>
+</rss>

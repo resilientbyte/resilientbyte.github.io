@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" role="img" aria-labelledby="t d">
+  <title id="t">Datenfluss</title>
+  <desc id="d">Daten laufen von der Quelle zum Agent und von dort zu Speicher und Ausgabe.</desc>
+  <style>
+    :root { --box: #ffffff; --stroke: #cbd5e1; --text: #0f172a; --line: #94a3b8; --dot: #6366f1; }
+    @media (prefers-color-scheme: dark) {
+      :root { --box: #1e293b; --stroke: #475569; --text: #f1f5f9; --line: #64748b; --dot: #a5b4fc; }
+    }
+    .box { fill: var(--box); stroke: var(--stroke); stroke-width: 1.5; }
+    .label { fill: var(--text); font: 600 16px system-ui, sans-serif; text-anchor: middle; dominant-baseline: middle; }
+    .line { fill: none; stroke: var(--line); stroke-width: 2; marker-end: url(#arrow); }
+    .dot { fill: var(--dot); }
+  </style>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8" />
+    </marker>
+  </defs>
+
+  <!-- Verbindungen -->
+  <path id="p1" class="line" d="M160,140 L258,140" />
+  <path id="p2" class="line" d="M400,140 C460,140 460,60 518,60" />
+  <path id="p3" class="line" d="M400,140 C460,140 460,220 518,220" />
+
+  <!-- Boxen -->
+  <rect class="box" x="20"  y="110" width="140" height="60" rx="10" />
+  <text class="label" x="90"  y="140">Quelle</text>
+
+  <rect class="box" x="260" y="110" width="140" height="60" rx="10" />
+  <text class="label" x="330" y="140">Agent</text>
+
+  <rect class="box" x="520" y="30"  width="140" height="60" rx="10" />
+  <text class="label" x="590" y="60">Speicher</text>
+
+  <rect class="box" x="520" y="190" width="140" height="60" rx="10" />
+  <text class="label" x="590" y="220">Ausgabe</text>
+
+  <!-- Datenpakete -->
+  <circle class="dot" r="5">
+    <animateMotion dur="1.6s" repeatCount="indefinite"><mpath href="#p1" /></animateMotion>
+  </circle>
+  <circle class="dot" r="5">
+    <animateMotion dur="1.6s" begin="1.6s" repeatCount="indefinite"><mpath href="#p2" /></animateMotion>
+  </circle>
+  <circle class="dot" r="5">
+    <animateMotion dur="1.6s" begin="1.6s" repeatCount="indefinite"><mpath href="#p3" /></animateMotion>
+  </circle>
+</svg>
