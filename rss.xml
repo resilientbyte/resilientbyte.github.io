@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>Beyond Legacy · Markus Birner</title>
+	<link>https://markusbirner.com/</link>
+	<atom:link href="https://markusbirner.com/rss.xml" rel="self" type="application/rss+xml" />
+	<description>Beyond Legacy – innovation, architecture and technology from inside the enterprise.</description>
+	<language>en</language>
+<item>
+	<title>Where do all the juniors grow?</title>
+	<link>https://markusbirner.com/posts/where-do-all-the-juniors-grow/</link>
+	<guid isPermaLink="true">https://markusbirner.com/posts/where-do-all-the-juniors-grow/</guid>
+	<pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+	<category>Innovation</category>
+	<description>AI makes newcomers productive from day one. Universities, companies and the newcomers themselves decide whether they also learn.</description>
+</item>
+<item>
+	<title>I quit keeping up</title>
+	<link>https://markusbirner.com/posts/i-quit-keeping-up/</link>
+	<guid isPermaLink="true">https://markusbirner.com/posts/i-quit-keeping-up/</guid>
+	<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+	<category>Solutions</category>
+	<description>In a flood of tools, methods and architectures, I need orientation, not completeness.</description>
+</item>
+<item>
+	<title>Lost in the blueprint</title>
+	<link>https://markusbirner.com/posts/lost-in-the-blueprint/</link>
+	<guid isPermaLink="true">https://markusbirner.com/posts/lost-in-the-blueprint/</guid>
+	<pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+	<category>Solutions</category>
+	<description>Thousands of pages, dozens of experts, and still no picture of how the business really works.</description>
+</item>
+<item>
+	<title>My own brownfield migration into the AI age</title>
+	<link>https://markusbirner.com/posts/my-brownfield-migration/</link>
+	<guid isPermaLink="true">https://markusbirner.com/posts/my-brownfield-migration/</guid>
+	<pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+	<category>Innovation</category>
+	<description>For ten years, I've helped companies move from ECC to S/4HANA. Now it's my turn.</description>
+</item>
+<item>
+	<title>What the dinosaurs know</title>
+	<link>https://markusbirner.com/posts/what-the-dinosaurs-know/</link>
+	<guid isPermaLink="true">https://markusbirner.com/posts/what-the-dinosaurs-know/</guid>
+	<pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+	<category>Technology</category>
+	<description>Seventeen years in enterprise software, one comet on the horizon, and a question I can no longer ignore.</description>
+</item>
+</channel>
+</rss>
